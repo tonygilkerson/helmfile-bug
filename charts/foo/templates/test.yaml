@@ -1,0 +1,1 @@
+ifResult: {{ .Values.ifResult }}

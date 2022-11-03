@@ -1,0 +1,6 @@
+{{- if .Values.flag }}
+ifResult: "if evaluated to TRUE with .Values.flag={{ .Values.flag }}"
+{{ else }}
+ifResult: "if evaluated to FALSE with .Values.flag={{ .Values.flag }}"
+{{- end }}
+

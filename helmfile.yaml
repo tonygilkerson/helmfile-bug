@@ -1,0 +1,12 @@
+missingFileHandler: Error
+
+releases:
+- name: foo
+  chart: ./charts/foo
+  values:
+  - foo-values.yaml.gotmpl
+
+environments:
+  default:
+    values:
+      - flag: no
